@@ -9,7 +9,7 @@ class DataInput(BaseModel):
     data: int
 
 #import model h5 disini, sebagai contoh inputan model linear
-model = tf.keras.models.load_model('./linear.h5')
+model = tf.keras.models.load_model('./model1.h5')
 
 @app.get("/")
 def hello():
